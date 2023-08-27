@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px;
+    background-color:  #663399;
+    text-align: center;
+    align-items: center;
+}
+.container img{
+    height: 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.one button{
+background-color: white;
+color:  #663399;
+padding: 10px;
+width: 150px;
+border-radius: 20px;
+}
+.one img{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.two img{
+    margin-right: 20px;
+}
+.con1{
+    border: 1px solid;
+    height: 100vh;
+    width: 50vh;
+    align-items: center;
+    text-align: center;
+}
+.con1 img{
+    border-radius: 50%;
+}
+.con1 .btn2{
+width: 130px;
+padding: 5px;
+border-radius: 10px;
+background-color: #663399;
+color: white;
+}
+.con2 h3{
+   padding: 15px;
+   border: 1px solid;
+   width: 200%;
+}
+.con1 span button{
+  padding: 5px;
+width: 130px;
+border-radius: 10px;
+
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 2;
+    
+}
+.tab1{
+    margin-top: 30px;
+    background-color: rgb(234, 232, 232);
+    border-radius: 10px;
+    width: 70vh;
+    padding: 5px;
+
+}
+.tab1 button{
+    background-color: #663399;
+    color: white;
+    padding: 10px;
+    width: 15vh;
+    border-radius: 50px;
+    
+}
+td, th {
+    
+    text-align: left;
+    padding: 10px;
+  }
+  .tab2{
+    margin-top: 30px;
+    margin-left: 90px;
+    background-color: rgb(234, 232, 232);
+    border-radius: 10px;
+    width: 100vh;
+    padding: 5px;
+    
+
+  }
+  .tab2 img{
+        height: 20px;
+        border-radius: 50px;
+  }
